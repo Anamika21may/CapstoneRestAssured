@@ -10,7 +10,7 @@ public class ApiTests {
     @Test(priority = 1)
     public void RestAssured_APITest() {
 
-        // Positive Scenario : Invalid email format
+        // Positive Scenario : Valid Response with token as output
         Post_ApiTest_Positive();
 
         // Negative Scenario : Invalid email format
