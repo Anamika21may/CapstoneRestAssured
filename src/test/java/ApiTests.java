@@ -1,11 +1,14 @@
 import org.json.simple.parser.ParseException;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 import static RestApiTest.POST.*;
 
 public class ApiTests {
-    public static void main(String[] args) throws IOException, ParseException {
+
+    @Test(priority = 1)
+    public void RestAssured_APITest() {
 
         // Positive Scenario : Invalid email format
         Post_ApiTest_Positive();

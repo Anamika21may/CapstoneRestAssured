@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-07T21:33:11 IST" name="Surefire suite" finished-at="2023-07-07T21:33:14 IST" duration-ms="3467">
+    <groups>
+    </groups>
+    <test started-at="2023-07-07T21:33:11 IST" name="Surefire test" finished-at="2023-07-07T21:33:14 IST" duration-ms="3467">
+      <class name="ApiTests">
+        <test-method signature="RestAssured_APITest()[pri:1, instance:ApiTests@10163d6]" started-at="2023-07-07T21:33:11 IST" name="RestAssured_APITest" finished-at="2023-07-07T21:33:14 IST" duration-ms="3407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAssured_APITest -->
+      </class> <!-- ApiTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
